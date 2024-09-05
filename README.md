@@ -10,10 +10,11 @@ To install the necessary dependencies, run:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Simple usage
 
-'''python
+```python
 from simulation_model import Patient, run_simulations
 
 # Run waiting list simulation
@@ -24,7 +25,7 @@ results = run_simulations(
     capacity=[50] * 365, # Assuming constant capacity over trajectory
     mean_arr=50 # Arrivals follow Poisson process
 )
-'''
+```
 ## Example Plot
 
 Below is an example plot showing the waiting time over time for multiple simulations.
