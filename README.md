@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ## Simple usage
 
 ```python
-from simulation_model import Patient, run_simulations
+from simulation_model import run_simulations
 
 # Run waiting list simulation
 results = run_simulations(
